@@ -1,0 +1,58 @@
+.hero {
+    background-size: cover;
+    height: 88vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-white);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    gap: 1.7rem;
+    z-index: 3;
+}
+
+.hero-text {
+    font-size: 48px;
+}
+
+.hero-text_h1 {
+    font-size: 60px;
+    transform: translateY(-100px);
+    font-weight: lighter;
+}
+
+.hero-text_h2 {
+    font-size: 24px;
+    transform: translateY(-100px);
+    width: 45%;
+    font-weight: lighter;
+}
+
+.hero-button {
+    transform: translateY(-85px);
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    border: 1px solid var(--primary-white); /* Use the deep brown color */
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--primary-white); /* Use the deep brown color */
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+}
+
+.hero-button:hover {
+    background-color: var(--accent-gold); /* Use the deep brown color */
+    color: var(--primary-white); /* White text on hover */
+    transform: translateY(-80px);
+}
