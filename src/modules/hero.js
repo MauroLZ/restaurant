@@ -21,6 +21,11 @@ const createHero = () => {
     hero.appendChild(heroTextH2);
     hero.appendChild(heroButton);
 
+    const overlayContainer = document.querySelector('.overlay-container');
+    setTimeout(() => {
+        overlayContainer.style.backgroundImage = 'url("coffee_bg.webp")';
+    }, 1000);
+
     return hero;
 }
 
