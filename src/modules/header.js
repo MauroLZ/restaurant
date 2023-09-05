@@ -1,4 +1,5 @@
-// Header.js
+// Importing the function that toggles the menu section
+import { toggleMenu, toggleHero } from "./navigation.js";
 const createHeader = () => {
     // Creating the header elements
     const headerElement = document.createElement('header');
@@ -21,6 +22,13 @@ const createHeader = () => {
     contact.textContent = "Contact";
     logo.innerHTML = "Greem Cafe";
 
+    menu.addEventListener('click', () => {
+        toggleMenu();
+    });
+
+    home.addEventListener('click', () => {
+        toggleHero();
+    });
 
     // Appending the elements to the header element
     headerElement.appendChild(logo);

@@ -16,7 +16,7 @@
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     gap: 1.7rem;
-    z-index: 3;
+    z-index: 8;
 }
 
 .hero-text {
@@ -44,7 +44,7 @@
     cursor: pointer;
     border: 1px solid var(--primary-white); /* Use the deep brown color */
     background-color: rgba(0, 0, 0, 0.3);
-    color: var(--primary-white); /* Use the deep brown color */
+    color: var(--accent-gold); /* Use the deep brown color */
     padding: 10px 20px;
     border-radius: 2px;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;

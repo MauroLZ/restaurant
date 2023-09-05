@@ -1,3 +1,6 @@
+// Importing the function that toggles the menu section
+import { toggleMenu } from "./navigation.js";
+
 const createHero = () => {
     // Creating the elements for the hero section
     const hero = document.createElement('div');
@@ -21,10 +24,16 @@ const createHero = () => {
     hero.appendChild(heroTextH2);
     hero.appendChild(heroButton);
 
+    // Adding event listener to the Our Menu button so the menu section is displayed
+    heroButton.addEventListener('click', () => {
+        toggleMenu();
+    });
+
+    // Function that changes background image after 5 seconds
     const overlayContainer = document.querySelector('.overlay-container');
     setTimeout(() => {
         overlayContainer.style.backgroundImage = 'url("coffee_bg.webp")';
-    }, 1000);
+    }, 5000);
 
     return hero;
 }

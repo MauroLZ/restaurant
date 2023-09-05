@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(178, 150, 87, 0.5);
     color: #FFF;
     text-align: center;
     padding: 10px;
@@ -14,7 +14,7 @@ header {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     width: 100%;
     font-weight: lighter;
 }
@@ -29,6 +29,7 @@ h1 {
 
 .menu-nav_links {
     display: flex;
+    gap: 2rem;
     justify-content: space-around;
     align-items: center;
     width: 40%;
@@ -36,11 +37,11 @@ h1 {
 }
 
 .menu-nav_links li {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
 .menu-nav_links li:hover {
-    color: var(--accent-gold);
+    color: var(--primary-black);
     cursor: pointer;
 }
