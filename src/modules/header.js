@@ -1,5 +1,5 @@
 // Importing the function that toggles the menu section
-import { toggleMenu, toggleHero } from "./navigation.js";
+import { toggleMenu, toggleHero, toggleContact } from "./navigation.js";
 const createHeader = () => {
     // Creating the header elements
     const headerElement = document.createElement('header');
@@ -28,6 +28,10 @@ const createHeader = () => {
 
     home.addEventListener('click', () => {
         toggleHero();
+    });
+
+    contact.addEventListener('click', () => {
+        toggleContact();
     });
 
     // Appending the elements to the header element

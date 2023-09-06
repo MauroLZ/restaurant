@@ -30,10 +30,10 @@ const createHero = () => {
     });
 
     // Function that changes background image after 5 seconds
-    const overlayContainer = document.querySelector('.overlay-container');
-    setTimeout(() => {
-        overlayContainer.style.backgroundImage = 'url("coffee_bg.webp")';
-    }, 5000);
+    // const overlayContainer = document.querySelector('.overlay-container');
+    // setTimeout(() => {
+    //     overlayContainer.style.backgroundImage = 'url("coffee_bg.webp")';
+    // }, 5000);
 
     return hero;
 }

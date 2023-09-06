@@ -1,0 +1,58 @@
+/* Styles for the contact section */
+.contact {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1200px;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: var(--primary-white);
+    bottom: 0;
+    margin: 125px auto;
+    z-index: 3;
+}
+
+.contact-text_h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+.contact-text_h2 {
+    font-size: 24px;
+    width: 45%;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.contact-text_p {
+    font-size: 18px;
+    width: 45%;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.contact-button {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    border: 1px solid var(--accent-cream); /* Use the deep brown color */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--primary-white); /* Use the deep brown color */
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+}
+
+.contact-button:hover {
+    background-color: var(--primary-white); /* Use the deep brown color */
+    color: var(--primary-black); /* Use the deep brown color */
+    transform: scale(1.1);
+}
